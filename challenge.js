@@ -30,7 +30,7 @@ function moveBalloons () {
   let pos2 = balloon2.position().top
   let pos3 = balloon3.position().top
 
-  start1 = false
+  start1 = true
   start2 = true
   start3 = true
 
