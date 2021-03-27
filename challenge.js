@@ -19,7 +19,7 @@ function crashBallon(arrow)
  }
       if(crash==true)
   {
-     Document.getelementbyId('balloon1.src=balloon
+     Document.getElementById('balloon1.src=balloon')
   }
 }
 function moveBalloons () {
