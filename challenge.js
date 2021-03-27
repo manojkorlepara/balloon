@@ -1,14 +1,22 @@
 function release (arrow, x) {
   releaseAction = setInterval(function () {
-    if (x>5) {
+    if (x>1800) {
       hanldeMousemove()
       clearInterval(releaseAction)
     }
     x = x + 10
     arrow.css('left', x)
   }, 12)
+  crashbBallon(arrow)
 }
 
+function crashBallon(arrow)
+{
+  boolean crash=false
+  if (arrow.position==#balloon1.position || arrow.position==#balloon2.position)
+      crash= true 
+      
+ }
 function moveBalloons () {
   let balloon1 = $('#balloon1')
   let balloon2 = $('#balloon2')
