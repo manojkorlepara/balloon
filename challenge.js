@@ -7,7 +7,7 @@ function release (arrow, x) {
     x = x + 10
     arrow.css('left', x)
   }, 12)
-  crashbBallon(arrow)
+  crashBallon(arrow)
 }
 
 function crashBallon(arrow)
