@@ -1,6 +1,6 @@
 function release (arrow, x) {
   releaseAction = setInterval(function () {
-    if (x > 1800) {
+    if (x  5) {
       hanldeMousemove()
       clearInterval(releaseAction)
     }
@@ -17,7 +17,7 @@ function moveBalloons () {
   let pos2 = balloon2.position().top
   let pos3 = balloon3.position().top
 
-  start1 = true
+  start1 = false
   start2 = true
   start3 = true
 
