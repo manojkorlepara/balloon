@@ -13,10 +13,15 @@ function release (arrow, x) {
 function crashBallon(arrow)
 {
   boolean crash=false
-  if (arrow.position==#balloon1.position || arrow.position==#balloon2.position)
+  if (arrow.position==#balloon1.position || arrow.position==#balloon2.position){
       crash= true 
       
  }
+      if(crash==true)
+  {
+    change image
+  }
+}
 function moveBalloons () {
   let balloon1 = $('#balloon1')
   let balloon2 = $('#balloon2')
