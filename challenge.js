@@ -19,7 +19,7 @@ function crashBallon(arrow)
  }
       if(crash==true)
   {
-    change image
+     Document.getelementbyId('balloon1.src=balloon
   }
 }
 function moveBalloons () {
