@@ -1,6 +1,6 @@
 function release (arrow, x) {
   releaseAction = setInterval(function () {
-    if (x  5) {
+    if (x>5) {
       hanldeMousemove()
       clearInterval(releaseAction)
     }
